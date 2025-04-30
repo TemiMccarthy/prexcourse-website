@@ -1,0 +1,48 @@
+.prex-logo{
+    width: 100px;
+}
+header{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-bottom: 1px solid lightgray;
+}
+.video-thumbnail{
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-thumbnail:hover{
+    opacity: 0.8;
+}
+.timestamp{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 3px;
+}
+video{
+    width: 200px;
+}
